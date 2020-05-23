@@ -1,0 +1,311 @@
+/* GENERAL STYLES */
+
+body{
+  font-family: sans-serif;
+}
+navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu{
+  margin-left: 75px;
+}
+.menu li{
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 12px;
+ 
+}
+.lang li{
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 12px;
+}
+header{
+  background-image: url(./img/hero-bg.jpg) ;
+  width: 100%;
+  height: 553px;
+  display:flex;
+  flex-direction: column;
+}
+.header-text{
+  margin: 0 auto;
+  margin-top: 165px;
+  color: #ffffff;
+}
+.heder-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.heder-img img{
+  margin: 5px;
+  margin-top: 20px;
+}
+.products{
+ width: 100%;
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.helbizgo{
+  width: 40%;
+  height: 60%;
+  margin: 10px;
+  text-align: center;
+}
+.helbizgo img {
+  width: 250px;
+  height: 350px;
+  margin: 0 auto ;
+  display: block;
+  margin-top: 20px;
+}
+.helbizgo a{
+  text-decoration: none;
+}
+.helbizbike{
+  width: 40%;
+  height: 60%;
+  margin: 10px;
+  text-align: center;
+}
+.helbizbike img{
+  width: 250px;
+  height: 350px;
+  margin: 0 auto ;
+  display: block;
+  margin-top: 20px;
+}
+.helbizbike a{
+  text-decoration: none;
+}
+.banner{
+  width: 100%;
+  height: 400px;
+  background-image: url(./img/helbiz-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+}
+.text-work{
+  width: 150px;
+  height: 70px;
+  margin: 10px;
+  margin-top: 125px;
+  text-align: center;
+}
+.work img{
+  width: 300px;
+  height: 470px;
+  position: relative;
+  bottom: 200px;
+}
+.step{
+  width: 200px;
+  height: 80px;
+  margin: 10px;
+  margin-top: 150px;
+  text-align: center;
+}
+.smart{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url(./img/scooter-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+}
+.smart-text
+{
+  margin-right: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.smart-text a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.get-around{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.get{
+  width: 50%;
+  height: 500px;
+  margin: 10px;
+  background-color: darkgrey;
+}
+.text-get{
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.text-get li{
+  display: inline-block;
+  list-style: none;
+}
+.text-get a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.text-get img{
+  width: 100%;
+  height: 370px;
+}
+
+.around{
+  width: 50%;
+  height: 500px;
+  background-image: url(./img/cities.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+.text-around{
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.text-around li{
+  display: inline-block;
+  list-style: none;
+}
+.text-around a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.family{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/social-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.helbizfamily{
+  width: 30%;
+  height: 200px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+.helbizfamily li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+.helbizfamily i{
+  color: #000;
+  text-align: center;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-first{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 1px solid #aaa;
+
+}
+.img-footer{
+  width: 200px;
+  height: 300px;
+}
+.product{
+  width: 200px;
+  height: 300px;
+}
+.info{
+  width: 200px;
+  height: 300px;
+}
+.helbiz-footer{
+  width: 200px;
+  height: 300px;
+}
+footer li{
+  list-style: none;
+  color: #ffffff;
+  font-size: large;
+  text-align: center;
+}
+.footer-first a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: small;
+}
+.footer-second{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  border-bottom: 1px solid #aaa;
+}
+.icons-footer li{
+  display: inline-block;
+  
+}
+.icons-footer i{
+  font-size: large;
+  color: #ffffff;
+  padding: 5px;
+}
+.footer-second .terms li 
+{
+  display: inline-block;
+  list-style: none;
+}
+.terms a{
+  color:#ffffff;
+  padding: 95px;
+ text-decoration: none;
+ font-size: x-small;
+}
+.footer-three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+
